@@ -1,0 +1,36 @@
+.app-container {
+  width: 400px;
+  height: 400px;
+}
+
+.calculator{
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+}
+
+.display{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  height: 40px;
+  font-size: 30px;
+  text-align: right;
+  border: 1px solid black;
+  padding-right: 10px;
+  padding-top: 5px;
+
+}
+
+button{
+  height: 50px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+button.operator{
+  background-color: rgb(153, 147, 147);
+}
+
+button.special-operator{
+  border: none;
+  background-color: lightgray;
+}
